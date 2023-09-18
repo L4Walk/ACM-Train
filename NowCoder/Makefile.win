@@ -1,0 +1,28 @@
+# Project: 牛客竞赛语法入门班顺序结构习题
+# Makefile created by Embarcadero Dev-C++ 6.3
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = "1001\ 这是一道签到题.o"
+LINKOBJ  = "1001 这是一道签到题.o"
+LIBS     = -L"D:/Programming/dev-cpp/TDM-GCC-64/lib" -L"D:/Programming/dev-cpp/TDM-GCC-64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"D:/Programming/dev-cpp/TDM-GCC-64/include" -I"D:/Programming/dev-cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"D:/Programming/dev-cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+CXXINCS  = -I"D:/Programming/dev-cpp/TDM-GCC-64/include" -I"D:/Programming/dev-cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"D:/Programming/dev-cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"D:/Programming/dev-cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
+BIN      = 牛客竞赛语法入门班顺序结构习题.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+DEL      = D:\Programming\dev-cpp\devcpp.exe INTERNAL_DEL
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${DEL} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+"1001\ 这是一道签到题.o": 1001\ 这是一道签到题.cpp
+	$(CPP) -c "1001 这是一道签到题.cpp" -o "1001 这是一道签到题.o" $(CXXFLAGS)

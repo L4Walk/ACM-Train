@@ -1,0 +1,30 @@
+
+button[data-v-42c20b13] {
+  margin-right: .5em;
+}
+.bookmark[data-v-42c20b13] {
+  margin-left: .3em;
+  padding: .3em;
+}
+.clone-card[data-v-42c20b13] {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(26, 26, 26, 0.3);
+  padding: .6em .8em;
+  width: max-content;
+  min-width: 150px;
+  font-size: 1rem;
+  color: #333;
+}
+.button-in-anchor[data-v-42c20b13] {
+  vertical-align: baseline;
+}
+@media (max-width: 576px) {
+.btn-op[data-v-42c20b13] {
+    width: 100%;
+    margin-bottom: .5em;
+}
+.button-in-anchor[data-v-42c20b13] {
+    width: 100%;
+}
+}
+

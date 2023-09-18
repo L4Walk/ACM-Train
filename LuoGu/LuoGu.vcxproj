@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{8a17268c-1045-4407-91af-98df49d7c10f}</ProjectGuid>
+    <RootNamespace>LuoGu</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="P1009 [NOIP1998 普及组] 阶乘之和.cpp" />
+    <ClCompile Include="P1035 [NOIP2002 普及组] 级数求和.cpp" />
+    <ClCompile Include="P1042 [NOIP2003 普及组] 乒乓球.cpp" />
+    <ClCompile Include="P1047 [NOIP2005 普及组] 校门外的树.cpp" />
+    <ClCompile Include="P1059 [NOIP2006 普及组] 明明的随机数.cpp" />
+    <ClCompile Include="P1067 [NOIP2009 普及组] 多项式输出.cpp" />
+    <ClCompile Include="P1068 [NOIP2009 普及组] 分数线划定.cpp" />
+    <ClCompile Include="P1075 [NOIP2012 普及组] 质因数分解.cpp" />
+    <ClCompile Include="P1089 [NOIP2004 提高组] 津津的储蓄计划.cpp" />
+    <ClCompile Include="P1093 [NOIP2007 普及组] 奖学金.cpp" />
+    <ClCompile Include="P1116 车厢重组.cpp" />
+    <ClCompile Include="P1125 [NOIP2008 提高组] 笨小猴.cpp" />
+    <ClCompile Include="P1152 欢乐的跳.cpp" />
+    <ClCompile Include="P1161 开灯.cpp" />
+    <ClCompile Include="P1177 【模板】快速排序.cpp" />
+    <ClCompile Include="P1200 [USACO1.1]你的飞碟在这儿Your Ride Is Here.cpp" />
+    <ClCompile Include="P1217 [USACO1.5]回文质数 Prime Palindromes源.cpp" />
+    <ClCompile Include="P1223 排队接水.cpp" />
+    <ClCompile Include="P1271 【深基9.例1】选举学生会.cpp" />
+    <ClCompile Include="P1304 哥德巴赫猜想.cpp" />
+    <ClCompile Include="P1307 [NOIP2011 普及组] 数字反转.cpp" />
+    <ClCompile Include="P1308 [NOIP2011 普及组] 统计单词数.cpp" />
+    <ClCompile Include="P1319 压缩技术.cpp" />
+    <ClCompile Include="P1420 最长连号.cpp" />
+    <ClCompile Include="P1423 小玉在游泳.cpp" />
+    <ClCompile Include="P1427 小鱼的数字游戏.cpp" />
+    <ClCompile Include="P1428 小鱼比可爱.cpp" />
+    <ClCompile Include="P1554 梦中的统计.cpp" />
+    <ClCompile Include="P1597 口算练习题.cpp" />
+    <ClCompile Include="P1601 A+B Problem（高精）.cpp" />
+    <ClCompile Include="P1614 爱与愁的心痛.cpp" />
+    <ClCompile Include="P1720 月落乌啼算钱（斐波那契数列）.cpp" />
+    <ClCompile Include="P1765 手机.cpp" />
+    <ClCompile Include="P1781 宇宙总统.cpp" />
+    <ClCompile Include="P1789 【Mc生存】插火把.cpp" />
+    <ClCompile Include="P1914 小书童——凯撒密码.cpp" />
+    <ClCompile Include="P1980 [NOIP2013 普及组] 计数问题.cpp" />
+    <ClCompile Include="P2141 [NOIP2014 普及组] 珠心算测验.cpp" />
+    <ClCompile Include="P2240 【深基12.例1】部分背包问题.cpp" />
+    <ClCompile Include="P2241 统计方形（数据加强版）.cpp" />
+    <ClCompile Include="P2415 集合求和.cpp" />
+    <ClCompile Include="P2550 [AHOI2001]彩票摇奖.cpp" />
+    <ClCompile Include="P2615 [NOIP2015 提高组] 神奇的幻方.cpp" />
+    <ClCompile Include="P2669 [NOIP2015 普及组] 金币.cpp" />
+    <ClCompile Include="P2670 [NOIP2015 普及组] 扫雷游戏.cpp" />
+    <ClCompile Include="P2676 [USACO07DEC]Bookshelf B.cpp" />
+    <ClCompile Include="P2911 [USACO08OCT]Bovine Bones G.cpp" />
+    <ClCompile Include="P3741 honoka的键盘.cpp" />
+    <ClCompile Include="P4956 [COCI2017-2018升6] Davor.cpp" />
+    <ClCompile Include="P5015 [NOIP2018 普及组] 标题统计.cpp" />
+    <ClCompile Include="P5143 攀爬者.cpp" />
+    <ClCompile Include="P5461 赦免战俘.cpp" />
+    <ClCompile Include="P5703 【深基2.例5】苹果采购.cpp" />
+    <ClCompile Include="P5707 【深基2.例12】上学迟到.cpp" />
+    <ClCompile Include="P2181 对角线.cpp" />
+    <ClCompile Include="P5709 【深基2.习6】Apples Prologue_ 苹果和虫子.cpp" />
+    <ClCompile Include="P1421 小玉买文具.cpp" />
+    <ClCompile Include="P5708 【深基2.习2】三角形面积.cpp" />
+    <ClCompile Include="P2433 【深基1-2】小学数学 N 合一.cpp" />
+    <ClCompile Include="P1425 小鱼的游泳时间.cpp" />
+    <ClCompile Include="P5706 【深基2.例8】再分肥宅水.cpp" />
+    <ClCompile Include="P5705 【深基2.例7】数字反转.cpp" />
+    <ClCompile Include="P5704 【深基2.例6】字母转换.cpp" />
+    <ClCompile Include="P3954 [NOIP 2017 普及组] 成绩.cpp" />
+    <ClCompile Include="P5710 【深基3.例2】数的性质.cpp" />
+    <ClCompile Include="P5711 【深基3.例3】闰年判断.cpp" />
+    <ClCompile Include="P5712 【深基3.例4】Apples.cpp" />
+    <ClCompile Include="P5713 【深基3.例5】洛谷团队系统.cpp" />
+    <ClCompile Include="P5714 【深基3.例7】肥胖问题.cpp" />
+    <ClCompile Include="P5715 【深基3.例8】三位数排序.cpp" />
+    <ClCompile Include="P5716 【深基3.例9】月份天数.cpp" />
+    <ClCompile Include="P1085 [NOIP2004 普及组] 不高兴的津津.cpp" />
+    <ClCompile Include="P1909 [NOIP2016 普及组] 买铅笔.cpp" />
+    <ClCompile Include="P5719 【深基4.例3】分类平均.cpp" />
+    <ClCompile Include="P5720 【深基4.例4】一尺之棰.cpp" />
+    <ClCompile Include="P5721 【深基4.例6】数字直角三角形.cpp" />
+    <ClCompile Include="P5722 【深基4.例11】数列求和.cpp" />
+    <ClCompile Include="P5723 【深基4.例13】质数口袋.cpp" />
+    <ClCompile Include="P5724 【深基4.习5】求极差  最大跨度值.cpp" />
+    <ClCompile Include="P5725 【深基4.习8】求三角形.cpp" />
+    <ClCompile Include="P5726 【深基4.习9】打分.cpp" />
+    <ClCompile Include="P5727 【深基5.例3】冰雹猜想.cpp" />
+    <ClCompile Include="P5728 【深基5.例5】旗鼓相当的对手.cpp" />
+    <ClCompile Include="P5729 【深基5.例7】工艺品制作.cpp" />
+    <ClCompile Include="P5730 【深基5.例10】显示屏.cpp" />
+    <ClCompile Include="P5731 【深基5.习6】蛇形方阵.cpp" />
+    <ClCompile Include="P5732 【深基5.习7】杨辉三角.cpp" />
+    <ClCompile Include="P5733 【深基6.例1】自动修正.cpp" />
+    <ClCompile Include="P5735 【深基7.例1】距离函数.cpp" />
+    <ClCompile Include="P5738 【深基7.例4】歌唱比赛.cpp" />
+    <ClCompile Include="P5740 【深基7.例9】最厉害的学生.cpp" />
+    <ClCompile Include="P5742 【深基7.例11】评等级.cpp" />
+    <ClCompile Include="P5743 【深基7.习8】猴子吃桃.cpp" />
+    <ClCompile Include="P5744 【深基7.习9】培训.cpp" />
+    <ClCompile Include="TEST.cpp" />
+    <ClCompile Include="P1422 小玉家的电费.cpp" />
+    <ClCompile Include="P1424 小鱼的航程%28改进版%29.cpp" />
+    <ClCompile Include="P1046 [NOIP2005 普及组] 陶陶摘苹果.cpp" />
+    <ClCompile Include="P5717 【深基3.习8】三角形分类.cpp" />
+    <ClCompile Include="P4414 [COCI2006-2007 升2] ABC.cpp" />
+    <ClCompile Include="P1888 三角函数.cpp" />
+    <ClCompile Include="P1055 [NOIP2008 普及组] ISBN 号码.cpp" />
+    <ClCompile Include="P5718 【深基4.例2】找最小值.cpp" />
+    <ClCompile Include="UVA1149 装箱 Bin Packing.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

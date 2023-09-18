@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\语法入门班数组栈、队列和stl习题">
+      <UniqueIdentifier>{ad094d8e-27a6-4e90-8f31-92b734119f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\牛客竞赛语法入门班顺序结构习题">
+      <UniqueIdentifier>{7cd46de6-78e7-4958-8b69-fb4c4201440f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="A 老子的全排列呢.cpp">
+      <Filter>源文件\语法入门班数组栈、队列和stl习题</Filter>
+    </ClCompile>
+    <ClCompile Include="B 装进肚子.cpp">
+      <Filter>源文件\语法入门班数组栈、队列和stl习题</Filter>
+    </ClCompile>
+    <ClCompile Include="1001 这是一道签到题.cpp">
+      <Filter>源文件\牛客竞赛语法入门班顺序结构习题</Filter>
+    </ClCompile>
+    <ClCompile Include="1002 排列式.cpp">
+      <Filter>源文件\牛客竞赛语法入门班顺序结构习题</Filter>
+    </ClCompile>
+    <ClCompile Include="1004 学姐的Helloworld.cpp">
+      <Filter>源文件\牛客竞赛语法入门班顺序结构习题</Filter>
+    </ClCompile>
+    <ClCompile Include="1005 乘法表.cpp">
+      <Filter>源文件\牛客竞赛语法入门班顺序结构习题</Filter>
+    </ClCompile>
+    <ClCompile Include="1006 KiKi学程序设计基础.cpp">
+      <Filter>源文件\牛客竞赛语法入门班顺序结构习题</Filter>
+    </ClCompile>
+    <ClCompile Include="1007 疫情死亡率.cpp">
+      <Filter>源文件\牛客竞赛语法入门班顺序结构习题</Filter>
+    </ClCompile>
+    <ClCompile Include="C 牛牛的三角形.cpp">
+      <Filter>源文件\语法入门班数组栈、队列和stl习题</Filter>
+    </ClCompile>
+    <ClCompile Include="D [NOIP1998]拼数.cpp">
+      <Filter>源文件\语法入门班数组栈、队列和stl习题</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

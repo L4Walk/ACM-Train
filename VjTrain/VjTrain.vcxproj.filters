@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\2021ACM基地新生入门训练（1）">
+      <UniqueIdentifier>{8d934543-ca6b-4dc3-96f7-86763d9f3e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2021ACM基地新生入门训练（2）">
+      <UniqueIdentifier>{0a66d86d-a460-4fe9-938b-d419bd6899cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="I - A + B Problem II.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="K - 计算两点间的距离.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="L - 计算球体积.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="M - 求绝对值.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="N - 成绩转换.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="O - 第几天？.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="Q - 平方和与立方和.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="R - 数值统计.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="S - 求数列的和.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="T - 水仙花数.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="U - 多项式求和.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="V - 素数判定.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="X - 青年歌手大奖赛_评委会打分.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="Z - 数据的交换输出.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="J - ASCII码排序.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="P - 求奇数的乘积.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="W - 蟠桃记.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="Y - 偶数求和.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="A - 字符串统计.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="B - 母牛的故事.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="C - 数列有序!.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="F - 海选女主角.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="I - 查找最大元素.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="J - 首字母变大写.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="M - Palindromes _easy version.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="O - 进制转换.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="Q - Let the Balloon Rise.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="D - 绝对值排序.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="G - 求平均成绩.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（1）</Filter>
+    </ClCompile>
+    <ClCompile Include="K - 统计元音.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="H - C语言合法标识符.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="P - 杨辉三角.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="E - 发工资咯.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="N - 汉字统计.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="R - Number Sequence.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="L - Lowest Common Multiple Plus.cpp">
+      <Filter>源文件\2021ACM基地新生入门训练（2）</Filter>
+    </ClCompile>
+    <ClCompile Include="Z - The 3n + 1 problem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

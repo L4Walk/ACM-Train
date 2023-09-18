@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件\引">
+      <UniqueIdentifier>{492d44ce-30a7-4489-85ac-9325dcf90dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\引\资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\2021.12.17 牛客小白月赛42">
+      <UniqueIdentifier>{1b44e988-463c-4fbd-9215-1fd487010ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2021.12.11 第五届中国计量大学程序设计竞赛个人赛（测试模拟赛）">
+      <UniqueIdentifier>{7297a0a4-b073-411c-b48c-0b094c2ab79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2021.10.09 2021ACM实验室招新赛">
+      <UniqueIdentifier>{8cdd7203-9640-4610-833b-d829b4abcd1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2021.10.01 2021ACM实验室招新赛%28模拟赛%29">
+      <UniqueIdentifier>{57a0a7c7-43a8-4cd9-98f9-2b8335db0a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2021.11.27 2021年广东工业大学第11届腾讯杯新生程序设计竞赛（同步赛）">
+      <UniqueIdentifier>{e3cd8f6f-06cf-42cc-aa04-d6ab05113a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2021.12.20 Codeforces Round #762 %28Div. 3%29">
+      <UniqueIdentifier>{a1cfd498-7c4e-4323-b3fe-79836d059fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2022.01.10 Codeforces Round #764 %28Div. 3%29">
+      <UniqueIdentifier>{c533b58a-0fb5-4a00-909e-6bbcfcdd24ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2021.12.29 21ACMfinal">
+      <UniqueIdentifier>{4032d138-98e1-494b-b275-f266a38ec566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2022.01.13 牛客小白月赛42">
+      <UniqueIdentifier>{2e0bdff8-7051-4c7c-8fef-1756bc8cd1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2022牛客寒假算法基础集训营">
+      <UniqueIdentifier>{229fa504-1861-4014-9505-520082bedbfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2022牛客寒假算法基础集训营\2022.01.24 2022牛客寒假算法基础集训营1">
+      <UniqueIdentifier>{d2470423-b301-4606-954e-134ad98c7d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2022牛客寒假算法基础集训营\2022.01.28 2022牛客寒假算法基础集训营3">
+      <UniqueIdentifier>{0639cafb-8071-488e-880c-c5d7bed00ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2022牛客寒假算法基础集训营\2022.01.26 2022牛客寒假算法基础集训营2">
+      <UniqueIdentifier>{737a903d-1ad5-4ee3-81cf-9a64817956da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2022牛客寒假算法基础集训营5">
+      <UniqueIdentifier>{1b86463c-593b-419a-a4e8-4ead9a5fd062}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="P1 打印CJLU.cpp">
+      <Filter>源文件\2021.10.01 2021ACM实验室招新赛%28模拟赛%29</Filter>
+    </ClCompile>
+    <ClCompile Include="P2 输出CJLU.cpp">
+      <Filter>源文件\2021.10.01 2021ACM实验室招新赛%28模拟赛%29</Filter>
+    </ClCompile>
+    <ClCompile Include="P3 交换苹果.cpp">
+      <Filter>源文件\2021.10.01 2021ACM实验室招新赛%28模拟赛%29</Filter>
+    </ClCompile>
+    <ClCompile Include="P4 神奇的DNA.cpp">
+      <Filter>源文件\2021.10.01 2021ACM实验室招新赛%28模拟赛%29</Filter>
+    </ClCompile>
+    <ClCompile Include="P5 照花前后镜.cpp">
+      <Filter>源文件\2021.10.01 2021ACM实验室招新赛%28模拟赛%29</Filter>
+    </ClCompile>
+    <ClCompile Include="P6 Peak.cpp">
+      <Filter>源文件\2021.10.01 2021ACM实验室招新赛%28模拟赛%29</Filter>
+    </ClCompile>
+    <ClCompile Include="P7 数字整除.cpp">
+      <Filter>源文件\2021.10.01 2021ACM实验室招新赛%28模拟赛%29</Filter>
+    </ClCompile>
+    <ClCompile Include="P11 母牛的故事.cpp">
+      <Filter>源文件\2021.10.01 2021ACM实验室招新赛%28模拟赛%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A 整数算术运算.cpp">
+      <Filter>源文件\2021.10.09 2021ACM实验室招新赛</Filter>
+    </ClCompile>
+    <ClCompile Include="Contest.cpp">
+      <Filter>源文件\引</Filter>
+    </ClCompile>
+    <ClCompile Include="B 计算天数.cpp">
+      <Filter>源文件\2021.10.09 2021ACM实验室招新赛</Filter>
+    </ClCompile>
+    <ClCompile Include="C 天梯赛的善良.cpp">
+      <Filter>源文件\2021.10.09 2021ACM实验室招新赛</Filter>
+    </ClCompile>
+    <ClCompile Include="D 统计一行文本的单词个数.cpp">
+      <Filter>源文件\2021.10.09 2021ACM实验室招新赛</Filter>
+    </ClCompile>
+    <ClCompile Include="F 素因子分解.cpp">
+      <Filter>源文件\2021.10.09 2021ACM实验室招新赛</Filter>
+    </ClCompile>
+    <ClCompile Include="E 天梯赛座位分配.cpp">
+      <Filter>源文件\2021.10.09 2021ACM实验室招新赛</Filter>
+    </ClCompile>
+    <ClCompile Include="G 宝石代购.cpp">
+      <Filter>源文件\2021.10.09 2021ACM实验室招新赛</Filter>
+    </ClCompile>
+    <ClCompile Include="H 呆唯的演唱会路线.cpp">
+      <Filter>源文件\2021.10.09 2021ACM实验室招新赛</Filter>
+    </ClCompile>
+    <ClCompile Include="I 世界上最幸福的女孩.cpp">
+      <Filter>源文件\2021.10.09 2021ACM实验室招新赛</Filter>
+    </ClCompile>
+    <ClCompile Include="A比比谁更大.cpp">
+      <Filter>源文件\2021.11.27 2021年广东工业大学第11届腾讯杯新生程序设计竞赛（同步赛）</Filter>
+    </ClCompile>
+    <ClCompile Include="C-hhgg爱Java.cpp">
+      <Filter>源文件\2021.11.27 2021年广东工业大学第11届腾讯杯新生程序设计竞赛（同步赛）</Filter>
+    </ClCompile>
+    <ClCompile Include="F osu！.cpp">
+      <Filter>源文件\2021.11.27 2021年广东工业大学第11届腾讯杯新生程序设计竞赛（同步赛）</Filter>
+    </ClCompile>
+    <ClCompile Include="G 拼牛牛.cpp">
+      <Filter>源文件\2021.11.27 2021年广东工业大学第11届腾讯杯新生程序设计竞赛（同步赛）</Filter>
+    </ClCompile>
+    <ClCompile Include="L 歪脖子树下的灯.cpp">
+      <Filter>源文件\2021.11.27 2021年广东工业大学第11届腾讯杯新生程序设计竞赛（同步赛）</Filter>
+    </ClCompile>
+    <ClCompile Include="K 烧烤丝瓜.cpp">
+      <Filter>源文件\2021.11.27 2021年广东工业大学第11届腾讯杯新生程序设计竞赛（同步赛）</Filter>
+    </ClCompile>
+    <ClCompile Include="I 史莱姆.cpp">
+      <Filter>源文件\2021.11.27 2021年广东工业大学第11届腾讯杯新生程序设计竞赛（同步赛）</Filter>
+    </ClCompile>
+    <ClCompile Include="D 机器人.cpp">
+      <Filter>源文件\2021.11.27 2021年广东工业大学第11届腾讯杯新生程序设计竞赛（同步赛）</Filter>
+    </ClCompile>
+    <ClCompile Include="A 阴谋.cpp">
+      <Filter>源文件\2021.12.11 第五届中国计量大学程序设计竞赛个人赛（测试模拟赛）</Filter>
+    </ClCompile>
+    <ClCompile Include="C 疏散.cpp">
+      <Filter>源文件\2021.12.11 第五届中国计量大学程序设计竞赛个人赛（测试模拟赛）</Filter>
+    </ClCompile>
+    <ClCompile Include="D 组装.cpp">
+      <Filter>源文件\2021.12.11 第五届中国计量大学程序设计竞赛个人赛（测试模拟赛）</Filter>
+    </ClCompile>
+    <ClCompile Include="E 血战.cpp">
+      <Filter>源文件\2021.12.11 第五届中国计量大学程序设计竞赛个人赛（测试模拟赛）</Filter>
+    </ClCompile>
+    <ClCompile Include="B 打磨.cpp">
+      <Filter>源文件\2021.12.11 第五届中国计量大学程序设计竞赛个人赛（测试模拟赛）</Filter>
+    </ClCompile>
+    <ClCompile Include="A 冰狱寒岚.cpp">
+      <Filter>源文件\2021.12.17 牛客小白月赛42</Filter>
+    </ClCompile>
+    <ClCompile Include="B 光之屏障.cpp">
+      <Filter>源文件\2021.12.17 牛客小白月赛42</Filter>
+    </ClCompile>
+    <ClCompile Include="E 暗灭侵蚀.cpp">
+      <Filter>源文件\2021.12.17 牛客小白月赛42</Filter>
+    </ClCompile>
+    <ClCompile Include="C 寒潭烟光.cpp">
+      <Filter>源文件\2021.12.17 牛客小白月赛42</Filter>
+    </ClCompile>
+    <ClCompile Include="A - Square String.cpp">
+      <Filter>源文件\2021.12.20 Codeforces Round #762 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Squares and Cubes.cpp">
+      <Filter>源文件\2021.12.20 Codeforces Round #762 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Wrong Addition.cpp">
+      <Filter>源文件\2021.12.20 Codeforces Round #762 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D. New Year%27s Problem.cpp">
+      <Filter>源文件\2021.12.20 Codeforces Round #762 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="1 Power Strings.cpp">
+      <Filter>源文件\2021.12.29 21ACMfinal</Filter>
+    </ClCompile>
+    <ClCompile Include="3 划船过河.cpp">
+      <Filter>源文件\2021.12.29 21ACMfinal</Filter>
+    </ClCompile>
+    <ClCompile Include="2 走楼梯（mini）.cpp">
+      <Filter>源文件\2021.12.29 21ACMfinal</Filter>
+    </ClCompile>
+    <ClCompile Include="5 挖宝游戏.cpp">
+      <Filter>源文件\2021.12.29 21ACMfinal</Filter>
+    </ClCompile>
+    <ClCompile Include="4 序列划分.cpp">
+      <Filter>源文件\2021.12.29 21ACMfinal</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Plus One on the Subset.cpp">
+      <Filter>源文件\2022.01.10 Codeforces Round #764 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Make AP.cpp">
+      <Filter>源文件\2022.01.10 Codeforces Round #764 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A 满意的数字.cpp">
+      <Filter>源文件\2022.01.13 牛客小白月赛42</Filter>
+    </ClCompile>
+    <ClCompile Include="B 牛牛变魔术.cpp">
+      <Filter>源文件\2022.01.13 牛客小白月赛42</Filter>
+    </ClCompile>
+    <ClCompile Include="C 木棍游戏.cpp">
+      <Filter>源文件\2022.01.13 牛客小白月赛42</Filter>
+    </ClCompile>
+    <ClCompile Include="D 有趣的区间.cpp">
+      <Filter>源文件\2022.01.13 牛客小白月赛42</Filter>
+    </ClCompile>
+    <ClCompile Include="A.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.24 2022牛客寒假算法基础集训营1</Filter>
+    </ClCompile>
+    <ClCompile Include="B 炸鸡块君与FIFA22.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.24 2022牛客寒假算法基础集训营1</Filter>
+    </ClCompile>
+    <ClCompile Include="E 炸鸡块君的高中回忆.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.24 2022牛客寒假算法基础集训营1</Filter>
+    </ClCompile>
+    <ClCompile Include="H 牛牛看云.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.24 2022牛客寒假算法基础集训营1</Filter>
+    </ClCompile>
+    <ClCompile Include="L 牛牛学走路.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.24 2022牛客寒假算法基础集训营1</Filter>
+    </ClCompile>
+    <ClCompile Include="J 小朋友做游戏.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.24 2022牛客寒假算法基础集训营1</Filter>
+    </ClCompile>
+    <ClCompile Include="F 中位数切分.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.24 2022牛客寒假算法基础集训营1</Filter>
+    </ClCompile>
+    <ClCompile Include="K 小沙的步伐.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.26 2022牛客寒假算法基础集训营2</Filter>
+    </ClCompile>
+    <ClCompile Include="C 小沙的杀球.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.26 2022牛客寒假算法基础集训营2</Filter>
+    </ClCompile>
+    <ClCompile Include="H 小沙的数数.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.26 2022牛客寒假算法基础集训营2</Filter>
+    </ClCompile>
+    <ClCompile Include="F 小沙的算数.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.26 2022牛客寒假算法基础集训营2</Filter>
+    </ClCompile>
+    <ClCompile Include="A 智乃的Hello XXXX.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.28 2022牛客寒假算法基础集训营3</Filter>
+    </ClCompile>
+    <ClCompile Include="D 智乃的01串打乱.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.28 2022牛客寒假算法基础集训营3</Filter>
+    </ClCompile>
+    <ClCompile Include="J 智乃的C语言模除方程.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.28 2022牛客寒假算法基础集训营3</Filter>
+    </ClCompile>
+    <ClCompile Include="B 智乃买瓜.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.28 2022牛客寒假算法基础集训营3</Filter>
+    </ClCompile>
+    <ClCompile Include="I 智乃的密码.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.28 2022牛客寒假算法基础集训营3</Filter>
+    </ClCompile>
+    <ClCompile Include="L 智乃的数据库.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营\2022.01.28 2022牛客寒假算法基础集训营3</Filter>
+    </ClCompile>
+    <ClCompile Include="J 三国小孩.cpp">
+      <Filter>源文件\2022牛客寒假算法基础集训营5</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
